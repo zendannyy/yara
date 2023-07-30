@@ -5,7 +5,8 @@
 (https://www.brighttalk.com/webcast/18282/504513).
 
 - grep on steroids 
-- give it a name, description, string to match, and a condition 
+- give it a name, description, strings to match, and a condition 
+    - Out of these, condition is mandatory 
 - YARA is also often integrated within commercial detection tools, or used internally to detect binaries on the enterprise network
 - if you don't specify char set, it will deffault to ascii
 
@@ -93,3 +94,23 @@ rule PrxlA
 ```
 For Icefog malware 
 (https://www.thesafemac.com/apple-finally-adds-icefog-to-xprotect/).
+
+### Another example rule: Good or Bad? 
+
+![Counting the amount of times a string occurs](images/yara_counting_strings.png)
+
+- Can count the amount of times a given string is found with #s2 > 3 syntax 
+
+(https://yara.readthedocs.io/en/v3.4.0/writingrules.html#counting-strings).
+
+Suggested "Clean" samples
+https://www.microsoft.com/en-us/download
+
+
+
+
+#### References 
+
+(https://blog.virustotal.com/2021/09/applied-yara-training-q.html).
+(https://www.brighttalk.com/webcast/18282/504513).
+(https://blogs.blackberry.com/en/2022/11/cyber-threat-hunting-2-powerful-analysis-tools).
