@@ -111,7 +111,7 @@ https://www.microsoft.com/en-us/download
 
 #### References 
 
-- (https://blog.virustotal.com/2021/09/applied-yara-training-q.html).
-- (https://www.brighttalk.com/webcast/18282/504513).
-- (https://blogs.blackberry.com/en/2022/11/cyber-threat-hunting-2-powerful-analysis-tools).
-- (https://github.com/Neo23x0/yarGen).
+- https://blog.virustotal.com/2021/09/applied-yara-training-q.html
+- https://www.brighttalk.com/webcast/18282/504513
+- https://blogs.blackberry.com/en/2022/11/cyber-threat-hunting-2-powerful-analysis-tools
+- https://github.com/Neo23x0/yarGen
