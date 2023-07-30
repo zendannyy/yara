@@ -67,13 +67,15 @@ Conditions
 
     ![Screenshot of a rule showing a slightly more complex condition.](images/yara_conditions_example.png)
 
+- here, grouping is used to detect on a combination of a group, b group, or c group 
+
 #### Modules
 - Make life easier 
 - most common being PE module  
 - other modules: Cuckoo, ELF, Magic, Hash, Time
 
 
-#### yara rule from Mac OSX local XProtect.yara
+#### yara rule from local Mac OSX XProtect.yara
 ```
 rule PrxlA
 {
