@@ -8,7 +8,7 @@
 - give it a name, description, strings to match, and a condition 
     - Out of these, condition is mandatory 
 - YARA is also often integrated within commercial detection tools, or used internally to detect binaries on the enterprise network
-- if you don't specify char set, it will deffault to ascii
+- if you don't specify char set, it will default to ascii
 
 More info on why here
 (https://yara.readthedocs.io/en/stable/writingrules.html#text-strings).
@@ -38,7 +38,7 @@ rule_hunt_by_timestamp
 {
     meta:
         author:author_name
-        description: "rule to hunt in a spcific timerange"
+        description: "rule to hunt in a specific timerange"
 
         strings:
             $a=".pdf"
@@ -52,7 +52,7 @@ rule_hunt_by_timestamp
 #### In the weeds
 Testing 
 - test with malware samples
-- test with CLEAN datasetsftp
+- test with CLEAN datasets
 
 keywords
 - uint16 read 2 bytes (16 bits) from a binary file as unsigned integer
