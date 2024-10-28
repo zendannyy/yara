@@ -106,7 +106,12 @@ For Icefog malware
 Suggested "Clean" samples
 https://www.microsoft.com/en-us/download
 
+## Floss ##
+To look at everything but static strings (what you would get w/ strings)
+```floss --no static file.exe```
 
+To only look at stackstrings and tight strings
+```floss --only stack tight -- file.exe```
 
 
 #### References 
@@ -115,3 +120,5 @@ https://www.microsoft.com/en-us/download
 - https://www.brighttalk.com/webcast/18282/504513
 - https://blogs.blackberry.com/en/2022/11/cyber-threat-hunting-2-powerful-analysis-tools
 - https://github.com/Neo23x0/yarGen
+- https://github.com/mandiant/flare-floss/blob/master/doc/usage.md
+
