@@ -99,7 +99,7 @@ For Icefog malware
 
 ![Counting the amount of times a string occurs](images/yara_counting_strings.png)
 
-- Can count the amount of times a given string is found with #s2 > 3 syntax 
+- Can count the amount of times a given string is found with #s2 > #s3 syntax
 
 (https://yara.readthedocs.io/en/v3.4.0/writingrules.html#counting-strings).
 
