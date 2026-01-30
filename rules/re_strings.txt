@@ -1,0 +1,11 @@
+\\\.\\/aswSP_[A-Za-z0-9]
+\\\\.\\/aswSP_[A-Za-z0-9]
+aswSP_Avar
+\\\\.\\aswSP_Avar
+\\\\.\\aswSP_ArPot2
+SentinelHelperService.exe
+SentinelServiceHost.exe
+SentinelStaticEngineScanner.exe
+Sentinel0Agent.exe
+SentinelAgentWorker.exe
+SentinelUI.exe
